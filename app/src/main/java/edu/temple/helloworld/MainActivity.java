@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener(){
-            @Override
+
             public void onClick(View v){
                 String message = "You have clicked the button.";
                 Toast.makeText(MainActivity.this, message,Toast.LENGTH_SHORT).show();
